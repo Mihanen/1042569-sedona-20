@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Михаил Кольцов](https://up.htmlacademy.ru/adaptive/20/user/1042569).
-* Наставник: [Михаил Поданв](https://htmlacademy.ru/profile/mpodanev).
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
 
 ---
 
