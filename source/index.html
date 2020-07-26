@@ -1,76 +1,101 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-  <body>
-    <header class="mobile_header">
-      <ul class="mobile_block_nav_button">
-        <li class="mobile_block_nav_text">Главная</li>
-        <li class="mobile_block_nav_text"><a href="photo.html">Фото и видео</a></li>
-        <li class="mobile_block_nav_text"><a href="form.html">Форма отзыва</a></li>
-        <li class="mobile_block_nav_text"><a href="https://htmlacademy.ru/">Htmlacademy</a></li>
-      </ul>
-      <img class="mobile_img_logo" src="#" alt="logo">
-      <button class="mobile_btn_open_menu">Открыть меню</button>
+  <body class="page-body">
+    <header class="page-header">
+      <nav class="main-nav">
+        <button class="main-nav__toggle main-nav__toggle--active " type="button">
+          <span class="visually-hidden">
+            Открыть меню
+          </span>
+        </button>
+         <ul class="main-nav-list">
+           <li class="main-nav-list__item main-nav-list__item--active">
+             <a>
+               Главная
+             </a>
+           </li>
+           <li class="main-nav-list__item main-nav-list__item--active">
+             <a href="photo.html">
+               Фото и видео
+             </a>
+           </li>
+           <li class="main-nav-list__item main-nav-list__item--activee">
+             <a href="form.html">
+               Форма отзыва
+             </a>
+           </li>
+           <li class="main-nav-list__item main-nav-list__item--active">
+             <a href="https://htmlacademy.ru/">
+               HtmlAcademy
+             </a>
+           </li>
+         </ul>
+      </nav>
+      <a class="page-header__logo" href="#"><img src="#" alt="Седона" width="102" height="84">
+      </a>
     </header>
-    <div  class="mobile_features">
-      <h2 class="mobile_features_title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
-      <p class="mobile_features_title_text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
-    </div>
-    <div class="mobile_features-1">
-      <h2 class="mobile_features-_title_list">Настоящий городок</h2>
-      <p class="mobile_features-_title_list_number_white">- №1 -</p>
-      <p class="mobile_features-_title_list_text_white">Седона не аттракцион для туристов, там течет своя жизнь</p>
-      <img class="mobile_features_photos" src="#" alt="photo-city" width="320" height="260">
-      <ul  class="mobile_features-_title_list">
-        <li class="mobile_features-_title_list_item">
-          <h2 class="mobile_features-_title_list_item_title">Жилье</h2>
-          <p class="mobile_features-_title_list_item_text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+    <main class="page-main" >
+      <div  class="features">
+        <h2 class="features__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p class="features__title_text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+      </div>
+      <div class="features-1">
+        <h2 class="features-1__title_list">Настоящий городок</h2>
+        <p class="features-1__title_list_number_white">- №1 -</p>
+        <p class="features-1__title_list_text_white">Седона не аттракцион для туристов, там течет своя жизнь</p>
+        <img class="features-1__photo" src="#" alt="photo-city" width="320" height="260">
+        <ul  class="features-1_title_list">
+          <li class="features-1_title_list__item">
+            <h2 class="features-1_title_list_item_title">Жилье</h2>
+            <p class="features-_title_list_item_text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="features-1_title_list__item">
+            <h2 class="features-1_title_list_item_title">Сувениры</h2>
+            <p class="features-1_title_list_item_text">Не только китайского, но и местного производства!</p>
+          </li>
+          <li class="features-1_title_list__item">
+            <h2 class="features-1_title_list_item_title">Еда</h2>
+            <p class="features-1_title_list_item_text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+        </ul>
+      </div>
+      <div class="features-2">
+        <h2 class="features-2__title-list">Там есть мост дьявола</h2>
+        <p class="features-2__title_list_number_white">- №2 -</p>
+        <p class="features-2__title_list_text_white">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+        <img class="features-2__photo" src="#" alt="photo-bridge" width="320" height="260">
+      </div>
+      <ul class="features-others">
+        <li class="features-others__list">
+          <h2 class="features-others_list_item">Небольшая площадь</h2>
+          <p class="features-others_list_item_number">- №3 -</p>
+          <p class="features-others_list_item_text">Все интресные места находятся очень близко</p>
         </li>
-        <li class="mobile_features-_title_list_item">
-          <h2 class="mobile_features-_title_list_item_title">Сувениры</h2>
-          <p class="mobile_features-_title_list_item_text">Не только китайского, но и местного производства!</p>
+        <li class="features-others__list">
+          <h2 class="features-others_list_item">Красивая дорога</h2>
+          <p class="features-others_list_item_number">- №4 -</p>
+          <p class="features-others_list_item_text">Ехать в сторону из Лас-Вегаса совсем не скучно!</p>
         </li>
-        <li class="mobile_features-_title_list_item">
-          <h2 class="mobile_features-_title_list_item_title">Еда</h2>
-          <p class="mobile_features-_title_list_item_text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        <li class="features-others__list">
+          <h2 class="features-others_list_item">Мало туристов</h2>
+          <p class="features-others_list_item_number">- №5 -</p>
+          <p class="features-others_list_item_text">Большинство едет в гранд каньон и толпится там</p>
         </li>
       </ul>
-    </div>
-    <div class="mobile_features-2">
-      <h2 class="mobile_features-_title_list">Там есть мост дьявола</h2>
-      <p class="mobile_features-_title_list_number_white">- №2 -</p>
-      <p class="mobile_features-_title_list_text_white">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-      <img class="mobile_features_photos" src="#" alt="photo-bridge" width="320" height="260">
-    </div>
-    <ul>
-      <li class="mobile_features_list">
-        <h2 class="mobile_features_list_item">Небольшая площадь</h2>
-        <p class="mobile_features_list_item_number">- №3 -</p>
-        <p class="mobile_features_list_item_text">Все интресные места находятся очень близко</p>
-      </li>
-      <li class="mobile_features_list">
-        <h2 class="mobile_features_list_item">Красивая дорога</h2>
-        <p class="mobile_features_list_item_number">- №4 -</p>
-        <p class="mobile_features_list_item_text">Ехать в сторону из Лас-Вегаса совсем не скучно!</p>
-      </li>
-      <li class="mobile_features_list">
-        <h2 class="mobile_features_list_item">Мало туристов</h2>
-        <p class="mobile_features_list_item_number">- №5 -</p>
-        <p class="mobile_features_list_item_text">Большинство едет в гранд каньон и толпится там</p>
-      </li>
-    </ul>
-    <footer class="mobile_footer">
-      <h2 class="mobile_footer_visited_sedona_text">#visitedsedona</h2>
-      <ul class="mobile_footer_sotial_list">
-        <li class="mobile_footer_sotial_list_item"><a href="#"><img src="#" alt="twitter"></a></li>
-        <li class="mobile_footer_sotial_list_item"><a href="#"><img src="#" alt="facebook"></a></li>
-        <li class="mobile_footer_sotial_list_item"><a href="#"><img src="#" alt="youtube"></a></li>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__visited_sedona_text">#visitedsedona</h2>
+      <ul class="footer_sotial_list">
+        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="twitter"></a></li>
+        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="facebook"></a></li>
+        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="youtube"></a></li>
       </ul>
-      <p class="mobile_footer_developer_text">Разработано</p>
-      <a class="mobile_footer_developer_logo" href="https://htmlacademy.ru/intensive/adaptive"><img src="#" alt="htmlacademy"></a>
+      <p class="footer__developer_text">Разработано</p>
+      <a class="footer__developer_logo" href="https://htmlacademy.ru/intensive/adaptive"><img src="#" alt="htmlacademy"></a>
     </footer>
   </body>
 </html>
