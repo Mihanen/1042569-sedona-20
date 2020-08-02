@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body class="page-body">
     <header class="page_header">
@@ -35,36 +37,37 @@
           </li>
         </ul>
       </nav>
-        <img class="page_header__logo" src="#" alt="logo">
+      <a class="page_header__logo" href="#"><img src="img/logo-sedona-mobile.svg" alt="Седона" width="102" height="84">
+      </a>
       </header>
-    <div class="mobile_photo_previu">
-      <h2 class="mobile_photo_previu__title">Фото и видео</h2>
-      <p class="mobile_photo_previu__text">Не можете решится на путешествие из-за курса? фотографии помогут вам забыть о политике и экономике.</p>
+    <div class="photo_previu">
+      <h2 class="photo_previu__title">Фото и видео</h2>
+      <p class="photo_previu__text">Не можете решится на путешествие из-за курса? фотографии помогут вам забыть о политике и экономике.</p>
     </div>
-      <ul class="mobile_photo_list">
-        <li class="mobile_photo_list__unit">
-          <img class="mobile_photo_list_photo" src="#" alt="road-to-sunset" width="280" height="280">
-          <h3 class="mobile_photo_list_photo_name">Неродные просторы</h3>
-          <p class="mobile_photo_list_autor_photo">Автор фото: Борис</p>
-          <button class="mobile_like_counter">Like</button><span class="mobile_like_counter_output">1350</span>
+      <ul class="photo_list">
+        <li class="photo_list__unit photo_list_unit">
+          <img class="photo_list_photo" src="img/photo-sunset-mobile@1x.jpg" alt="road-to-sunset" width="280" height="280">
+          <h3 class="photo_list_photo_name">Неродные просторы</h3>
+          <p class="photo_list_autor_photo">Автор фото: Борис</p>
+          <button class="like_counter">Like</button>1<span class="like_counter_output">1350</span>
         </li>
-        <li class="mobile_photo_list__unit">
-          <img class="mobile_photo_list_photo" src="#" alt="local-vegetation" width="280" height="280">
-          <h3 class="mobile_photo_list_photo_name">Местная растительность</h3>
-          <p class="mobile_photo_list_autor_photo">Автор фото: Сергей</p>
-          <button class="mobile_like_counter">Like</button><span class="mobile_like_counter_output">143</span>
+        <li class="photo_list__unit">
+          <img class="photo_list_photo" src="img/photo-cactus-mobile@1x.jpg" alt="local-vegetation" width="280" height="280">
+          <h3 class="photo_list_photo_name">Местная растительность</h3>
+          <p class="photo_list_autor_photo">Автор фото: Сергей</p>
+          <button class="like_counter">Like</button><span class="like_counter_output">143</span>
         </li>
-        <li class="mobile_photo_list__unit">
-          <img class="mobile_photo_list_photo" src="#" alt="road-to-north" width="280" height="280">
-          <h3 class="mobile_photo_list_photo_name">Дорога на север</h3>
-          <p class="mobile_photo_list_autor_photo">Автор фото: Петр</p>
-          <button class="mobile_like_counter">Like</button><span class="mobile_like_counter_output">96</span>
+        <li class="photo_list__unit">
+          <img class="photo_list_photo" src="img/photo-roads-mobile@1x.jpg" alt="road-to-north" width="280" height="280">
+          <h3 class="photo_list_photo_name">Дорога на север</h3>
+          <p class="photo_list_autor_photo">Автор фото: Петр</p>
+          <button class="like_counter">Like</button><span class="like_counter_output">96</span>
         </li>
-        <li class="mobile_photo_list__unit">
-          <img class="mobile_photo_list_photo" src="#" alt="divil's-bridge" width="280" height="280">
-          <h3 class="mobile_photo_list_photo_name">Мост дьявола</h3>
-          <p class="mobile_photo_list_autor_photo"> Автор фото: Антон</p>
-          <button class="mobile_like_counter">Like</button><span class="mobile_like_counter_output">254</span>
+        <li class="photo_list__unit">
+          <img class="photo_list_photo" src="img/photo-bridge-mobile@1x.jpg" alt="divil's-bridge" width="280" height="280">
+          <h3 class="photo_list_photo_name">Мост дьявола</h3>
+          <p class="photo_list_autor_photo"> Автор фото: Антон</p>
+          <button class="like_counter">Like</button><span class="like_counter_output">254</span>
         </li>
       </ul>
       <div class="doubts">
@@ -77,15 +80,17 @@
         <video class="doubts__video" src="#">
         </video>
       </div>
-    <footer class="footer">
-      <h2 class="footer__visited_sedona_text">#visitedsedona</h2>
-      <ul class="footer_sotial_list">
-        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="twitter"></a></li>
-        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="facebook"></a></li>
-        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="youtube"></a></li>
-      </ul>
-      <p class="footer__developer_text">Разработано</p>
-      <a class="footer__developer_logo" href="https://htmlacademy.ru/intensive/adaptive"><img src="#" alt="htmlacademy"></a>
-    </footer>
+      <footer class="footer">
+        <h2 class="footer__visited_sedona_text">#visitedsedona</h2>
+        <ul class="footer_sotial_list">
+          <li class="footer_sotial_list__item"><a href="#"><img src="img/icon-twitter.svg" alt="twitter"></a></li>
+          <li class="footer_sotial_list__item"><a href="#"><img src="img/icon-facebook.svg" alt="facebook"></a></li>
+          <li class="footer_sotial_list__item"><a href="#"><img src="img/icon-youtube.svg" alt="youtube"></a></li>
+        </ul>
+        <div class="footer_developer">
+          <p class="footer_developer__text">Разработано</p>
+          <a class="footer_developer__logo" href="https://htmlacademy.ru/intensive/adaptive"><img src="img/logo-htmlacademy.svg" alt="htmlacademy"></a>
+        </div>
+      </footer>
   </body>
 </html>

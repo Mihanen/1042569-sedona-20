@@ -1,0 +1,30 @@
+.features {
+  width: auto;
+  line-height: 40px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+  h2 {
+    padding: 0;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: white;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  p {
+    align-items: center;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .main-nav-list__item {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
+  }
+}
