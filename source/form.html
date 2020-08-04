@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body class="page-body">
-    <header class="page_header">
+    <header class="page-header">
       <nav class="main-nav">
         <button class="main-nav__toggle main-nav__toggle--active " type="button">
           <span class="visually-hidden">
@@ -14,41 +16,41 @@
         </button>
           <ul class="main-nav-list">
             <li class="main-nav-list__item main-nav-list__item--active">
-              <a href="index.html">
+              <a class="main-nav-list__link" href="index.html">
                 Главная
               </a>
             </li>
             <li class="main-nav-list__item main-nav-list__item--active">
-              <a href="photo.html">
+              <a class="main-nav-list__link" href="photo.html">
                 Фото и видео
               </a>
             </li>
             <li class="main-nav-list__item main-nav-list__item--activee">
-              <a>
+              <a class="main-nav-list__link">
                 Форма отзыва
               </a>
             </li>
               <li class="main-nav-list__item main-nav-list__item--active">
-              <a href="https://htmlacademy.ru/">
+              <a class="main-nav-list__link" href="https://htmlacademy.ru/">
                 HtmlAcademy
               </a>
             </li>
           </ul>
       </nav>
-      <a class="page_header__logo" href="#"><img src="#" alt="Седона" width="102" height="84">
+      <a class="page-header__logo" href="#"><img src="img/logo-sedona-mobile.svg" alt="Седона" width="102" height="84">
       </a>
     </header>
     <main class="review">
-    <div class="leave_review">
-      <h3 class="leave_review__title">
+    <div class="leave-review">
+      <h3 class="leave-review__title">
         Оставьте свой отзыв
       </h3>
-      <p class="leave_review__text">
+      <p class="leave-review__text">
         Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
       </p>
     </div>
-    <form class="review_form" action="https://echo.htmlacademy.ru" method="POST">
-      <fieldset class="review_form__name">
+    <form class="review-form" action="https://echo.htmlacademy.ru" method="POST">
+      <fieldset class="review-form__name">
         <legend>
           Представьтесь:
         </legend>
@@ -56,12 +58,12 @@
         Фамилия*: <input type="text" placeholder="Иванов" required>
         Отчество: <input type="text" placeholder="Александрович">
       </fieldset>
-      <fieldset class="review_form__contact">
+      <fieldset class="review-form__contact">
         <legend>Контактная информация</legend>
         Контактный телефон*: <input type="tel" placeholder="Введите телефон" required>
         Электронная почта*: <input type="email" placeholder="Введите e-mail" required>
       </fieldset>
-      <fieldset class="review_form__impression">
+      <fieldset class="review-form__impression">
         <legend>Ваше общее впечатление:</legend>
         <input type="radio" name="Скорее положительное" id="radio-1" checked>Скорее положительное
         <input type="radio" name="Скорее отрицательное" id="radio-2">Скорее отрицательное
@@ -74,22 +76,24 @@
         <input type="checkbox" name="Слайд-парк" id="checkbox-3" checked>Слайд-парк
         <input type="checkbox" name="Красные скалы" id="checkbox-4">Красные скалы
       </fieldset>
-      <fieldset class="review_form__feedback">
+      <fieldset class="review-form__feedback">
         <legend>Опишите свои эмоции:</legend>
         <textarea name="Опишите подробно все свои восторги" id="textarea-1" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
         <input type="submit" value="Отправить отзыв">
       </fieldset>
     </form>
   </main>
-    <footer class="footer">
-      <h2 class="footer__visited_sedona_text">#visitedsedona</h2>
-      <ul class="footer_sotial_list">
-        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="twitter"></a></li>
-        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="facebook"></a></li>
-        <li class="footer_sotial_list__item"><a href="#"><img src="#" alt="youtube"></a></li>
-      </ul>
-      <p class="footer__developer_text">Разработано</p>
-      <a class="footer__developer_logo" href="https://htmlacademy.ru/intensive/adaptive"><img src="#" alt="htmlacademy"></a>
-    </footer>
+  <footer class="footer">
+    <h2 class="footer__visited-sedona-text">#visitedsedona</h2>
+    <ul class="footer-sotial">
+      <li class="footer-sotial__item"><a href="#"><img src="img/icon-twitter.svg" alt="twitter"></a></li>
+      <li class="footer-sotial__item"><a href="#"><img src="img/icon-facebook.svg" alt="facebook"></a></li>
+      <li class="footer-sotial__item"><a href="#"><img src="img/icon-youtube.svg" alt="youtube"></a></li>
+    </ul>
+    <div class="footer-developer">
+      <p class="footer-developer__text">Разработано</p>
+      <a class="footer-developer__logo" href="https://htmlacademy.ru/intensive/adaptive"><img src="img/logo-htmlacademy.svg" alt="htmlacademy"></a>
+    </div>
+  </footer>
   </body>
 </html>
