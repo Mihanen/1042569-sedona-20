@@ -1,21 +1,21 @@
-.photo_list {
+.photo-list {
   padding-left: 0;
   font-weight: bold;
   margin-left: 10px;
 }
 
-.photo_list__unit {
+.photo-list__unit {
   list-style: none;
   width: 320px;
   margin: 0 auto;
 }
 
-.photo_list_photo_name {
+.photo-list__photo-name {
   font-size: 14px;
   font-weight: bold;
 }
 
-.photo_list_autor_photo {
+.photo-list__autor-photo {
   font-size: 14px;
   font-weight: 400;
 }

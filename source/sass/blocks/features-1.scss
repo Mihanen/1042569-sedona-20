@@ -2,6 +2,7 @@
   background-color: #81b3d2;
   color: white;
   text-align: center;
+  justify-content: center;
 }
 
 .features-1__title {
@@ -10,7 +11,11 @@
   line-height: 28px;
 }
 
-.features-1__title_text {
+.features-1__title-text {
   font-size: 14px;
   line-height: 21px;
+}
+
+.features-1__photo {
+  justify-content: center;
 }
