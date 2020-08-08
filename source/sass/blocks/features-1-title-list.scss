@@ -1,9 +1,30 @@
-.features-1_title_list {
+.features-1-title-list {
   align-items: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .features-1-title-list__item {
   list-style: none;
+  width: 240px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 185px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 282px;
+  }
 }
 
 .features-1-title-list__item-title {

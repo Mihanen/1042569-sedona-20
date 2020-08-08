@@ -1,13 +1,52 @@
 .photo-list {
   padding-left: 0;
   font-weight: bold;
-  margin-left: 10px;
-}
-
-.photo-list__unit {
-  list-style: none;
   width: 320px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    display: flex;
+  }
+}
+
+.photo-list__unit:first-child {
+  list-style: none;
+  width: 280px;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+  }
+}
+
+.photo-list__unit:nth-child(n+2) {
+  list-style: none;
+  width: 280px;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 400px;
+    height: 100%;
+  }
 }
 
 .photo-list__photo-name {
@@ -18,4 +57,63 @@
 .photo-list__autor-photo {
   font-size: 14px;
   font-weight: 400;
+}
+
+.photo-list__photo-1 {
+  width: 100%;
+  margin-bottom: -4px;
+
+  @media (min-width: $tablet-width) {
+    width: inherit;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: inherit;
+  }
+}
+
+.photo-list__photo {
+  width: 280px;
+  margin-bottom: -4px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: inherit;
+  }
+}
+
+.photo-list__autor-block {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(#000000, 0.3);
+    width: auto;
+  }
+}
+
+.photo-list__like-counter-block {
+  @media (min-width: $tablet-width) {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }

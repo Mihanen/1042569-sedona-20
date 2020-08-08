@@ -1,10 +1,38 @@
+.features-others {
+  background-color: #eeeeee;
+  padding-left: 0;
+  margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
 .features-others__list {
+  width: 268px;
+  margin: 0 auto;
   list-style: none;
   align-items: center;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    width: 175px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: 315px;
+  }
 }
 
 .features-others__list-item {
+  margin-top: 0;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
