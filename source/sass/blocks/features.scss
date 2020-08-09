@@ -1,16 +1,9 @@
-// Viewports
-
-$tablet-width: 768px;
-$desktop-width: 1200px;
-$mobile-width-only: 767px;
-
-//
-
 .features {
-  width: 268px;
+  width: 267px;
   margin: 0 auto;
   line-height: 40px;
   text-align: center;
+  align-content: center;
 
   @media (min-width: $tablet-width) {
     width: 520px;
@@ -45,4 +38,5 @@ $mobile-width-only: 767px;
   align-items: center;
   font-size: 14px;
   line-height: 26px;
+  margin-top: 30px;
 }
