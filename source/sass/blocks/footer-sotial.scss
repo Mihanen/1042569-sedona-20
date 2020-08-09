@@ -11,5 +11,9 @@
   width: 46px;
   height: 48px;
   align-items: center;
-  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.footer-sotial__item:nth-last-child() {
+  margin-right: 0;
 }

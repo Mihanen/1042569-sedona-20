@@ -8,16 +8,21 @@
     display: flex;
     text-align: center;
     align-content: center;
+    width: 768px;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
   }
 }
 
 .features-1__text-block {
   width: 295px;
-  margin: auto;
+  margin: 0 auto;
+
 
   @media (min-width: $tablet-width) {
     width: 256px;
@@ -30,27 +35,65 @@
 
 .features-1__title {
   font-size: 18px;
-  font-weight: bold;
   line-height: 28px;
   flex-grow: 1;
-}
+  margin-bottom: 10px;
 
-.features-1__title-text {
-  font-size: 14px;
-  line-height: 21px;
+  @media (min-width: $tablet-width) {
+    font-size: 21px;
+    line-height: 26px;
+    width: 216px;
+    margin: 0 auto;
+    padding-top: 41px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 48px;
+    padding-left: 2px;
+  }
 }
 
 .features-1__photo {
   justify-content: center;
   flex-grow: 1;
+  margin-bottom: -4px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+    height: 256px;
+  }
+}
+
+.features-1__title-list_number_white {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 13px;
+    margin-bottom: 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 2px;
+  }
 }
 
 .features-1__title-list-text-white {
+  font-size: 14px;
+  margin-top: 18px;
+  margin-bottom: 43px;
+
   @media (min-width: $tablet-width) {
     width: 220px;
     margin: auto;
     align-content: center;
     text-align: center;
+    font-size: 14px;
+    line-height: 21px;
   }
 
   @media (min-width: $desktop-width) {
@@ -58,5 +101,9 @@
     margin: auto;
     align-content: center;
     text-align: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 293px;
   }
 }

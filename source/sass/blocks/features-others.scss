@@ -1,33 +1,42 @@
 .features-others {
   background-color: #eeeeee;
-  padding-left: 0;
+  padding-left: 30px;
   margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1;
 
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-around;
+    padding-top: 11px;
+    margin-left: -9px;
+    padding-left: 0;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
   }
 }
 
 
 .features-others__list {
-  width: 268px;
-  margin: 0 auto;
+  width: 259px;
   list-style: none;
   align-items: center;
   text-align: center;
+  padding-top: 25px;
+  border-top: 1px solid #d6d6d6;
 
   @media (min-width: $tablet-width) {
-    width: 175px;
+    width: 177px;
+    border: none;
   }
 
   @media (min-width: $desktop-width) {
-    display: 315px;
+    width: 315px;
   }
 }
 
@@ -36,9 +45,67 @@
   font-size: 18px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 10px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 161px;
+    margin: auto;
+  }
 }
 
 .features-others__list-item-number {
   font-size: 14px;
   line-height: 21px;
+  margin-top: 11px;
+  margin-bottom: 17px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 16px;
+  }
+}
+
+.features-others__list-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 11px;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    width: 276px;
+    padding-left: 20px;
+  }
+}
+
+.features-others__list:nth-child(2) {
+  @media (min-width: $tablet-width) {
+    width: 150px;
+    padding-right: 8px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 313px;
+  }
+}
+
+.features-others__list:nth-child(3) {
+  @media (min-width: $tablet-width) {
+    width: 161px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 313px;
+  }
 }

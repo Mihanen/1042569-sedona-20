@@ -6,10 +6,14 @@
 
   @media (min-width: $tablet-width) {
     background-color: white;
+    width: 768px;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
     background-color: white;
+    width: 1200px;
+    margin: 0 auto;
   }
 }
 

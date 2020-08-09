@@ -4,7 +4,11 @@
   justify-content: space-between;
   width: 126px;
   margin: 0 auto;
-  margin-top: 35px;
+  margin-top: 38px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .footer-developer__text {

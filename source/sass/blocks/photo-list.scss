@@ -21,6 +21,7 @@
   width: 280px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     width: 100%;
@@ -29,6 +30,7 @@
 
   @media (min-width: $desktop-width) {
     width: 100%;
+    margin-bottom: -7px;
   }
 }
 
@@ -37,10 +39,12 @@
   width: 280px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     width: 50%;
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -52,11 +56,15 @@
 .photo-list__photo-name {
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .photo-list__autor-photo {
   font-size: 14px;
   font-weight: 400;
+  text-transform: none;
+  margin-top: 8px;
+  margin-bottom: 15px;
 }
 
 .photo-list__photo-1 {
@@ -65,6 +73,8 @@
 
   @media (min-width: $tablet-width) {
     width: inherit;
+    min-height: 400px;
+    margin-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -78,6 +88,9 @@
 
   @media (min-width: $tablet-width) {
     width: 100%;
+    padding-top: 3px;
+    height: 267px;
+    margin-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -103,6 +116,7 @@
     color: white;
     background-color: rgba(#000000, 0.3);
     width: auto;
+    min-height: 84px;
   }
 }
 

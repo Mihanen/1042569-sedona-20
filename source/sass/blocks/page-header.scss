@@ -1,4 +1,16 @@
 .page-header__logo {
   display: flex;
   justify-content: center;
+  margin-bottom: -47px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
