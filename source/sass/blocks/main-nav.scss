@@ -3,4 +3,22 @@
   font-weight: bold;
   width: auto;
   line-height: 40px;
+
+  @media (min-width: $tablet-width) {
+    background-color: white;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: white;
+  }
+}
+
+.main-nav__toggle {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }

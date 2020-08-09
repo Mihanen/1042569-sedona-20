@@ -1,10 +1,35 @@
+// Viewports
+
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+
+//
+
 .features {
-  width: auto;
+  width: 268px;
+  margin: 0 auto;
   line-height: 40px;
-  background-image: url("../img/bg-back-mobile@1x.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    width: 520px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 520px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
 }
 
 .features__title {

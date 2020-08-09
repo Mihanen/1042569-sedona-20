@@ -1,3 +1,23 @@
+.footer {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
 .footer__visited-sedona-text {
   font-size: 21px;
   line-height: 26px;

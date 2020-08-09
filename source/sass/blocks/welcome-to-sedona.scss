@@ -1,0 +1,15 @@
+.welcome-to-sedona {
+  width: auto;
+  height: 200px;
+  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  align-content: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../../img/bg-back-tablet@1x.jpg");
+    background-position: center;
+  }
+}

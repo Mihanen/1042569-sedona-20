@@ -1,5 +1,19 @@
 .main-nav-list {
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    color: #000000;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    color: #000000;
+  }
 }
 
 .main-nav-list__item {
@@ -9,10 +23,24 @@
   color: white;
   font-size: 18px;
   box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
+
+  @media (min-width: $tablet-width) {
+    color: #000000;
+  }
 }
 
 .main-nav-list__link {
   display: block;
   padding: 0;
   text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    background-color: white;
+    color: #000000;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: white;
+    color: #000000;
+  }
 }
