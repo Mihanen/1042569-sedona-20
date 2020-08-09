@@ -7,10 +7,14 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    width: 768px;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
   }
 }
 

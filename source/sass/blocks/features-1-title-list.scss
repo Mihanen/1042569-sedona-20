@@ -1,15 +1,20 @@
 .features-1-title-list {
   align-items: center;
   margin: 0 auto;
+  padding-left: 0;
 
   @media (min-width: $tablet-width) {
     display: flex;
     text-align: center;
     justify-content: space-around;
+    width: 768px;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 1200;
+    margin: 0 auto;
   }
 }
 
