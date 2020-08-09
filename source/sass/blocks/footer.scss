@@ -4,8 +4,10 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 768px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   @media (min-width: $desktop-width) {
@@ -13,8 +15,10 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 1200px;
+    margin: 0 auto;
   }
 }
 
@@ -24,4 +28,5 @@
   align-items: center;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 32px;
 }
