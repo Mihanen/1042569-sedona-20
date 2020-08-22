@@ -1,3 +1,11 @@
+.page-header {
+  margin-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 10px;
+  }
+}
+
 .page-header__logo {
   display: flex;
   justify-content: center;
