@@ -57,7 +57,11 @@
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 8px;
-  padding-top: 0px;
+  padding-top: 0;
+
+  @media (min-width: $desktop-width) {
+    padding-top: 3px;
+  }
 }
 
 .photo-list__autor-photo {
