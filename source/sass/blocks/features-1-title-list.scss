@@ -121,3 +121,10 @@
     margin-left: 117px;
   }
 }
+
+.features-1-title-list__item:nth-child(2) br{
+  display: none;
+   @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
