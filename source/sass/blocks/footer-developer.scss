@@ -1,5 +1,16 @@
 .footer-developer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 126px;
+  margin: 0 auto;
+  margin-top: 38px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+}
+
+.footer-developer__text {
+  font-size: 14px;
 }

@@ -1,4 +1,40 @@
+.page-header {
+  margin: 0 auto;
+  margin-bottom: 19px;
+  position: relative;
+  min-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}
+
 .page-header__logo {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  width: 102px;
+  top: 221px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
 }
