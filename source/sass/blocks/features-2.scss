@@ -29,7 +29,7 @@
   @media (min-width: $tablet-width) {
     order: 1;
     width: 256px;
-    margin-top: 40px;
+    margin-top: 43px;
   }
 
   @media (min-width: $desktop-width) {
@@ -76,6 +76,10 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 22px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 19px;
   }
 }
 
