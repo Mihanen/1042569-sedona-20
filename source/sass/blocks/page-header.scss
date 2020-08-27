@@ -1,11 +1,12 @@
 .page-header {
+  margin: 0 auto;
   margin-bottom: 19px;
   position: relative;
-  width: 320px;
+  min-width: 320px;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 12px;
     width: 768px;
+    margin-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -16,7 +17,7 @@
 .page-header__logo {
   position: absolute;
   width: 102px;
-  top: 224px;
+  top: 221px;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);

@@ -1,10 +1,16 @@
 .features-1 {
   background-color: #81b3d2;
+  background-image: url("../img/bg-intro-triangle-mobile-2.png");
+  background-position: top;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
   justify-content: center;
+  padding-top: 54px;
 
   @media (min-width: $tablet-width) {
+    background-image: none;
+    padding-top: 0;
     display: flex;
     text-align: center;
     align-content: center;
@@ -97,13 +103,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 295px;
+    width: 290px;
     margin: auto;
     align-content: center;
     text-align: center;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 293px;
   }
 }
