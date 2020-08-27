@@ -3,7 +3,6 @@
   color: white;
   text-align: center;
   padding-top: 26px;
-  margin-bottom: -4px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -30,7 +29,7 @@
   @media (min-width: $tablet-width) {
     order: 1;
     width: 256px;
-    margin-top: 42px;
+    margin-top: 40px;
   }
 
   @media (min-width: $desktop-width) {
@@ -50,14 +49,14 @@
 
   @media (min-width: $tablet-width) {
     font-size: 21px;
-    width: 151px;
+    width: 170px;
     margin: 0 auto;
     margin-bottom: 15px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 21px;
-    width: 151px;
+    width: 170px;
   }
 }
 
@@ -101,5 +100,13 @@
     align-content: center;
     text-align: center;
     padding-top: 2px;
+  }
+}
+
+.features-2__title-list br {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
   }
 }

@@ -20,6 +20,7 @@
     justify-content: space-around;
     width: 1200px;
     margin: 0 auto;
+    padding-bottom: 37px;
   }
 }
 
@@ -94,6 +95,10 @@
   }
 }
 
+.features-others__list:nth-child(1) {
+  padding-top: 21px;
+}
+
 .features-others__list:nth-child(2) {
   @media (min-width: $tablet-width) {
     width: 150px;
@@ -114,5 +119,13 @@
   @media (min-width: $desktop-width) {
     width: 313px;
     margin-left: -10px;
+  }
+}
+
+.features-others__list-item br {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
   }
 }

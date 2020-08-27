@@ -9,8 +9,8 @@
   margin: 0 auto;
   width: 320px;
   padding-top: 116px;
-  min-height: 316px;
-  margin-bottom: -63px;
+  padding-bottom: 67px;
+  margin-top: 55px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
@@ -18,9 +18,9 @@
     background-position-y: -230px;
     margin: 0 auto;
     width: 768px;
-    min-height: 485px;
+    min-height: 300px;
     padding-top: 221px;
-    margin-bottom: -171px;
+    padding-bottom: 13px;
   }
 
   @media (min-width: $desktop-width) {
@@ -30,7 +30,7 @@
     margin-top: -2px;
     padding-top: 233px;
     background-position-y: -218px;
-    margin-bottom: -130px;
+    margin-bottom: 40px;
   }
 }
 
@@ -38,7 +38,7 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 26px;
-  padding-top: 43px;
+  padding-top: 45px;
   padding-bottom: 14px;
   background-image: url("../img/bg-intro-triangle-mobile.svg");
   background-repeat: no-repeat;
