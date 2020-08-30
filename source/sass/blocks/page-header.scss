@@ -17,7 +17,7 @@
 .page-header__logo {
   position: absolute;
   width: 102px;
-  top: 221px;
+  top: 222px;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
@@ -32,6 +32,7 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
+    width: 186px;
     top: 0;
     left: 50%;
     right: 50%;

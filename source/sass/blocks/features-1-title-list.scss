@@ -1,25 +1,24 @@
 .features-1-title-list {
-  padding-left: 27px;
-  padding-top: 10px;
+  padding-left: 0;
   padding-bottom: 21px;
   margin: 0 auto;
   text-align: left;
-  width: 208px;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
     display: flex;
     text-align: center;
     justify-content: space-between;
     padding-left: 0;
-    width: 768px;
+    width: 700px;
     margin: 0 auto;
-    padding-bottom: 49px;
+    padding-bottom: 48px;
   }
 
   @media (min-width: $desktop-width) {
+    width: 1200px;
     display: flex;
     justify-content: left;
-    width: 1200px;
     margin: 0 auto;
     padding-bottom: 68px;
   }
@@ -27,7 +26,7 @@
 
 .features-1-title-list__item {
   list-style: none;
-  width: 231px;
+  width: 320px;
   margin-top: 25px;
   padding-left: 0;
 
@@ -35,6 +34,7 @@
     width: 185px;
     margin-top: 47px;
     padding-top: 83px;
+    padding-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -46,11 +46,20 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 28px;
+  padding-left: 70px;
+  padding-top: 8px;
+  margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     font-size: 21px;
     line-height: 26px;
-    margin-bottom: 25px;
+    margin-bottom: 23px;
+    padding-left: 0;
+    padding-top: 4px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 23px;
   }
 }
 
@@ -60,43 +69,57 @@
   font-size: 14px;
   line-height: 21px;
   text-align: left;
+  padding-left: 70px;
 
   @media (min-width: $tablet-width) {
     text-align: center;
+    padding-left: 0;
+    width: inherit;
   }
 }
 
 .features-1-title-list__item:nth-child(1) {
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
+  background-size: 39px;
   background-position-y: top;
-  background-position-x: center;
-  width: 208px;
+  background-position-x: 20px;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
-    margin-left: 36px;
+    background-position-x: 55px;
+    background-size: 76px;
+    margin-top: 60px;
+    margin-left: 0;
     width: 188px;
+    padding-top: 77px;
   }
 
   @media (min-width: $desktop-width) {
     width: 282px;
-    margin-left: 58px;
+    margin-left: 0;
+    padding-left: 59px;
+    background-position-x: 160px;
   }
 }
 
 .features-1-title-list__item:nth-child(2) {
   background-image: url("../img/icon-gift.svg");
   background-repeat: no-repeat;
+  background-size: 33px;
   background-position-y: top;
+  background-position-x: 24px;
+  margin-top: 16px;
 
   @media (min-width: $tablet-width) {
     order: 1;
-    background-image: url("../img/icon-gift.svg");
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: 63px;
     width: 193px;
-    margin-left: -30px;
-    margin-right: 31px;
+    margin-top: 60px;
+    padding-top: 77px;
+    padding-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -108,12 +131,19 @@
 .features-1-title-list__item:nth-child(3) {
   background-image: url("../img/icon-burger.svg");
   background-repeat: no-repeat;
+  background-size: 39px;
   background-position-y: top;
-  background-position-x: center;
+  background-position-x: 20px;
+  width: 298px;
+  margin-top: 18px;
 
   @media (min-width: $tablet-width) {
+    background-size: 75px;
+    background-position-x: center;
     width: 159px;
-    margin-left: -27px;
+    margin-top: 60px;
+    padding-top: 77px;
+    padding-left: 0;
   }
 
   @media (min-width: $desktop-width) {
